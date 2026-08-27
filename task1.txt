@@ -1,0 +1,182 @@
+What is a variable in JavaScript?
+ans:variable is a container used to store data values.
+
+What are the three keywords used to create variables?
+ans: var,let,const
+
+Write the syntax to create a variable using var.
+ans:var variableName=value;
+
+Write the syntax to create a variable using let.
+ans:let variableName=value;
+
+Write the syntax to create a variable using const.
+ans:const variableName=Value;
+
+What is declaration?
+ans: Declaration means creating a variable without assigning a value.
+eg: let age;
+
+What is initialization?
+ans:Initialization means assigning a value to a variable for the first time.
+eg: let age=25;
+
+What is reassignment?
+Reassignment means changing the value of an existing variable.
+eg: let age=25;
+age=30;
+
+What is redeclaration?
+Redeclaration means declaring the same variable again in the same scope.
+eg: var x=10;
+var x=20;
+
+Which keyword allows redeclaration?
+ans:var
+
+Which keyword allows reassignment?
+ans:var and let
+
+Which keyword requires initialization when declared?
+ans:const
+eg:const age=25;
+
+Identify the declaration and initialization:
+let age = 25;
+ans:Declaration -let age
+Initialization - = 25
+
+What is the value of a?
+var a = 100;
+console.log(a);
+ans:100
+
+Change the value of this variable to 200:
+let number = 100;
+ans:let number=100;
+number=200;
+
+What will be the output?
+var a = 10;
+console.log(a);
+ans:10
+
+What will be the output?
+var a = 10;
+a = 20;
+console.log(a);
+ans:20
+
+What will be the output?
+var a = 10;
+var a = 30;
+console.log(a);
+ans:30
+
+Write a var variable named name with the value "John".
+ans:var name="john";
+
+Create a var variable named price with the value 500.
+var price=500;
+
+Reassign price from 500 to 1000.
+ans:var price = 500;
+price = 1000;
+
+What will be the output?
+var x = 50;
+x = 100;
+console.log(x);
+ans:100
+
+Can a var variable be reassigned? ans:yes
+
+Can a var variable be redeclared? ans:yes
+
+Write an example of var redeclaration.
+ans: var age = 20;
+var age = 30;
+console.log(age);
+
+Create a let variable named age with the value 25.
+ans:let age=25;
+
+What will be the output?
+let age = 20;
+age = 30;
+console.log(age);
+ans:30
+
+Can a let variable be reassigned?ans:yes
+
+Can a let variable be redeclared?ans:no,not in the same scope.
+
+Find the error:
+let name = "John";
+let name = "David";
+ans: Identifier 'name' has already been declared
+A let variable cannot be redeclared in the same scope.
+
+Create a let variable called city and assign "Chennai".
+ans:let city="chennai";
+
+Change the value of city to "Salem".
+ans:let city="chennai";
+city="salem";
+What will be the output?
+let x = 10;
+x = 50;
+console.log(x);
+ans:50
+
+Write a let variable called salary with the value 25000.
+ans:let salary=25000;
+
+Reassign salary to 30000.
+ans:let salary = 25000;
+salary = 30000;
+
+Create a const variable called pi with the value 3.14.
+ans:const pi = 3.14;
+
+Can a const variable be reassigned?ans:no
+
+Can a const variable be redeclared?ans:no
+
+What is wrong with this code?
+const age;
+age = 25;
+ans:const must be initialized when it is declared.
+correct ans:const age = 25;
+
+What happens here?
+const price = 500;
+price = 1000;
+ans:It produces an error because a const variable cannot be reassigned.
+
+Create a const variable called country with the value "India".
+ans:const country = "India";
+
+What will be the output?
+const x = 100;
+console.log(x);
+ans:100
+
+Which keyword should you use if the value should not be reassigned?
+ans:const
+
+What is the difference between let and const?
+ans:
+let:
+1.Can be reassigned
+let age = 20;
+age = 25; // Allowed
+const:
+1.Cannot be reassigned
+const age = 20;
+age = 25; // Error
+
+What is the difference between var and const?
+ans:
+var :can be reassigned and redeclared
+const: cannot be reassigned or redeclared
