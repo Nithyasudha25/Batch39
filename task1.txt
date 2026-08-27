@@ -180,3 +180,23 @@ What is the difference between var and const?
 ans:
 var :can be reassigned and redeclared
 const: cannot be reassigned or redeclared
+
+Write JavaScript code to print Hello World using console.log().
+ans:console.log("Hello World");
+
+Write JavaScript code to print the number 500 using console.log().
+ans:console.log(500);
+
+What is the purpose of console.warn()?
+ans:console.warn() is used to display warning messages in the browser console.
+eg:console.warn("This is a warning");
+
+What is the purpose of console.error()?
+ans:console.error() is used to display error messages in the browser console.
+eg:console.error("Something went wrong");
+
+What is the purpose of each?
+ans:
+console.log()	- Displays normal information/output
+console.warn()	- Displays warning messages
+console.error() - Displays error messages
